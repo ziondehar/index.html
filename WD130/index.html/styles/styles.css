@@ -1,1 +1,35 @@
 styles
+nav {background-color: steelblue;
+padding: 10px; }
+
+nav a { color: white;
+display: block;
+padding: 20px;}
+
+h1 {color: steelblue;}
+
+img{ width: 150px;
+height: auto;
+border: 1px solid steelblue;
+padding: 2px;
+box-shadow: 0 0 30px gray}
+
+p{padding: 10px;}
+       
+main {
+  max-width: 840px;
+}
+
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */ 
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
